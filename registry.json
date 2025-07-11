@@ -1,0 +1,79 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "default",
+  "homepage": "https://ui.shadcn.com",
+  "items": [
+    {
+      "name": "chat-input-1",
+      "type": "registry:component",
+      "title": "Chat Input 1",
+      "description": "A bordered, white chat input with header, subheader, textarea, and model selection dropdown.",
+      "files": [
+        {
+          "path": "registry/default/components/chat-input-1.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "chat-input-2",
+      "type": "registry:component",
+      "title": "Chat Input 2",
+      "description": "A modern, dark-themed chat input bar inspired by AI chat UIs. Includes model selection, image upload, action icons, and chat privacy indicator.",
+      "files": [
+        {
+          "path": "registry/default/components/chat-input-2.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "chat-input-3",
+      "type": "registry:component",
+      "title": "Chat Input 3",
+      "description": "A soft, gradient chat input bar inspired by modern AI chat UIs. Includes model selection, globe, search, attachment icons, and a floating send button.",
+      "files": [
+        {
+          "path": "registry/default/components/chat-input-3.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "chat-input-4",
+      "type": "registry:component",
+      "title": "Chat Input 4",
+      "description": "A minimal, dark chat input bar with attachment and send buttons.",
+      "files": [
+        {
+          "path": "registry/default/components/chat-input-4.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "chat-input",
+      "type": "registry:component",
+      "title": "Chat Input (Base)",
+      "description": "A sticky, bordered, white chat input with textarea, model selection, and action buttons. Responsive and accessible, following shadcn/ui patterns.",
+      "files": [
+        {
+          "path": "registry/default/components/chat-input.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "voice-toolbar-1",
+      "type": "registry:component",
+      "title": "Voice Toolbar 1",
+      "description": "A toolbar with pill-shaped buttons for voice features and a description box. Includes icons for Text to Speech, Voice Changer, Dubbing, Text to SFX, and Voice Cloning.",
+      "files": [
+        {
+          "path": "registry/default/components/voice-toolbar-1.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
