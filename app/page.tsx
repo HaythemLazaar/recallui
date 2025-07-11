@@ -5,6 +5,7 @@ import ChatInput2 from "@/registry/default/components/chat-input-2";
 import ChatInput3 from "@/registry/default/components/chat-input-3";
 import ChatInput4 from "@/registry/default/components/chat-input-4";
 import VoiceToolbar1 from "@/registry/default/components/voice-toolbar-1";
+import { Suggestions } from "@/registry/default/components/suggestions";
 import { Space_Grotesk } from "next/font/google";
 
 const spaceGrotesk = Space_Grotesk({
@@ -126,6 +127,8 @@ export default function Home() {
           <ChatInput4 />
           <div className="border-t border-dashed border-neutral-200 w-full" />
           <VoiceToolbar1 />
+          <div className="border-t border-dashed border-neutral-200 w-full" />
+          <Suggestions />
         </div>
       </div>
     </>
